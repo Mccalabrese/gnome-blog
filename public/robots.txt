@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://mccalabrese.pages.gitlab.gnome.org/michael-calabrese-blog/sitemap.xml
