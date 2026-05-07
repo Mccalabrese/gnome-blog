@@ -1,0 +1,23 @@
+base_url = "https://mccalabrese.pages.gitlab.gnome.org/michael-calabrese-blog"
+title = "Michael Calabrese"
+description = "GSoC development blog"
+default_language = "en"
+
+compile_sass = true
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
+theme = "anemone"
+
+taxonomies = [
+    {name = "tags"}
+]
+
+
+[extra]
+author = "Michael Calabrese"
+list_pages = false
+header_nav = [
+  { url = "/", name_en = "/home" },
+]
