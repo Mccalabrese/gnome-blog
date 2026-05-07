@@ -1,4 +1,6 @@
-image: ghcr.io/getzola/zola:v0.18.0
+image:
+  name: ghcr.io/getzola/zola:v0.18.0
+  entrypoint: [""]
 
 pages:
   script:
