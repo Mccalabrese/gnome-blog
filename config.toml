@@ -17,7 +17,7 @@ taxonomies = [
 
 [extra]
 author = "Michael Calabrese"
-list_pages = false
+list_pages = true
 header_nav = [
   { url = "/", name_en = "/home" },
 ]
