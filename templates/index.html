@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {{ section.content | safe }}
+
+    {% if config.extra.list_pages %}
+    {% set posts_section = get_section(path="posts/_index.md") %}
+    <ul class="posts">
+        {% for page in posts_section.pages | slice(end=5) %}
+        <li>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+            <span class="date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if paginator %}
+        {% include "partials/pagination.html" %}
+    {% endif %}
+{% endblock %}
