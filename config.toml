@@ -1,4 +1,4 @@
-base_url = "https://Mccalabrese.github.io/gnome-blog"
+base_url = "https://mccalabrese.github.io/gnome-blog"
 title = "Michael Calabrese"
 description = "GSoC development blog"
 default_language = "en"
