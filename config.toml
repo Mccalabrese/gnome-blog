@@ -2,6 +2,7 @@ base_url = "https://mccalabrese.github.io/gnome-blog"
 title = "Michael Calabrese"
 description = "GSoC development blog"
 default_language = "en"
+author = "nw.calabrese@gmail.com (Michael Calabrese)"
 
 compile_sass = true
 build_search_index = false
@@ -16,7 +17,6 @@ taxonomies = [
 
 
 [extra]
-author = "Michael Calabrese"
 list_pages = true
 header_nav = [
   { url = "/", name_en = "/home" },
