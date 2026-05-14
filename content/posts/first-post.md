@@ -1,6 +1,7 @@
 +++
 title = "Hello Planet GNOME! | GSoC 2026 Introduction"
 date = "2026-05-13"
+authors = ["mccalabrese@example.com (Michael Calabrese)"]
 [taxonomies]
 tags = ["gsoc", "gnome", "introduction"]
 +++
